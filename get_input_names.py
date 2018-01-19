@@ -31,5 +31,8 @@ def loop_until_input(prompt_message):
 first_name = loop_until_input("Enter First Name ")
 last_name = loop_until_input("Enter Last Name ")
 
-# print inputs 
-print (last_name , first_name)
+# print lastname firstname 
+print ("print lastname firstname : ", last_name , first_name)
+
+# print lastname firstname - strings reversed
+print ("print lastname firstname - strings reversed : ", last_name[::-1] , first_name[::-1])
